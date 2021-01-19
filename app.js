@@ -156,7 +156,7 @@ function addHtml(member) {
         </div>`
         }
         console.log("adding team member");
-        fs.appendFile("./output/team.html", data, function (err) {
+        fs.appendFile("./main/index.html", data, function (err) {
             if (err) {
                 return reject(err);
             };
